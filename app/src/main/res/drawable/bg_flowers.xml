@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo base negro -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+
+    <!-- Imagen de flores repetida -->
+    <item>
+        <bitmap
+            android:src="@drawable/bg_flowers_img"
+            android:tileMode="repeat"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

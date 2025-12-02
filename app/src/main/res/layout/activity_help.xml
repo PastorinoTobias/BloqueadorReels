@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_flowers_img"
+    android:padding="0dp">
+
+    <!-- PANEL OSCURO PARA TEXTO (RESALTADO) -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA000000"
+        android:padding="22dp"
+        android:layout_margin="14dp"
+        android:clipToPadding="false">
+
+        <!-- TÍTULO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instrucciones y permisos"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFF4F4"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="22dp" />
+
+        <!-- INTRODUCCIÓN -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es normal desconfiar cuando una app solicita permisos. Queremos ser totalmente transparentes: esta app fue creada únicamente para ayudarte a limitar el consumo de redes sociales y mejorar tu bienestar digital.\n\nNo recolectamos datos personales, no accedemos a mensajes y no enviamos información a servidores. Todo ocurre solo en tu dispositivo. Incluso yo mismo uso esta aplicación como herramienta de enfoque diario."
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFDCDC"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="26dp" />
+
+        <!-- PERMISOS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Para qué sirven los permisos?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFF4F4"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Servicio de accesibilidad:\nPermite detectar Reels y Shorts y volver atrás automáticamente.\n\n2. Datos de uso:\nSolo se usa para mostrar tus estadísticas personales dentro de la app.\n\n3. Notificaciones (opcional):\nPara recordatorios del Reto-Do."
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFDCDC"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="26dp" />
+
+        <!-- PRIVACIDAD -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacidad de tus datos"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFF4F4"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• No se envían datos a terceros.\n• No almacenamos mensajes ni contenido privado.\n• No guardamos contraseñas.\n• Todo funciona exclusivamente dentro de tu dispositivo."
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFDCDC"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="28dp" />
+
+        <!-- CONTACTO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacto"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFF4F4"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si necesitás ayuda o querés sugerir mejoras, escribinos a:\nbloqueadorreelsdo@gmail.com"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFDCDC"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="6"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>
